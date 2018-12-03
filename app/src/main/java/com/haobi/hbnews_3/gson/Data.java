@@ -24,6 +24,16 @@ public class Data {
 
     private String thumbnail_pic_s;
 
+    public Data(String uniqueKey, String title, String date, String category, String authorName, String url, String thumbnail_pic_s){
+        setUniqueKey(uniqueKey);
+        setTitle(title);
+        setDate(date);
+        setCategory(category);
+        setAuthorName(authorName);
+        setUrl(url);
+        setThumbnail_pic_s(thumbnail_pic_s);
+    }
+
     public String getUniqueKey() {
         return uniqueKey;
     }

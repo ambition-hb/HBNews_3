@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.haobi.hbnews_3.MainActivity">
+    tools:context="com.haobi.hbnews_3.BrowseNewsActivity">
 
-    <ListView
-        android:id="@+id/lvNews"
+    <WebView
+        android:id="@+id/webView"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    </ListView>
+    </WebView>
 
 </LinearLayout>
